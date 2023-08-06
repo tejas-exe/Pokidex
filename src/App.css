@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.pokimonSmallDisplay {
+  background-color: rgba(211, 211, 211, 0.203);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 10px;
+}
+.pokiImg {
+  width: 70px;
+  height: 70px;
+}
+.HomeContainer {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+}
+
+.pokeDetails {
+
+  height: 87vh;
+  width: 35%;
+  position: fixed;
+  top: 75px;
+  right: 5px;
+}
+.pokiContainerAll {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
