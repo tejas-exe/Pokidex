@@ -2,6 +2,7 @@ import * as React from "react";
 import "../App.css";
 
 const AllCard = ({ data, getpokemon }) => {
+  
   console.log("===>??", data);
   return (
     <div
